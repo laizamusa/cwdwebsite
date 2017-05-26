@@ -57,6 +57,10 @@ body {
 
 @media screen and (min-width:320px) and (max-width: 480px){
 
+    .shapes {
+        position: absolute;
+    }
+
     .mdl-grid {
         width: 95%;
     }
@@ -151,7 +155,7 @@ body {
         color: #ffffff;
     }
     .page-content{
-        background: url('../public/img/bg/Cwd-Web.png');
+        background: url('../public/img/bg/cwd-web.png');
     }
 
     .mdl-layout__header{
