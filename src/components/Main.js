@@ -27,7 +27,7 @@ class Main extends Component {
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone web">
                         <h4 className="nxtpro" style={{fontFamily: 'Lato-Medium'}}>OUR NEXT PROJECT:</h4>
                         <h1 className="newweb" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>YOUR NEW WEBSITE</h1>
-                        <img className="shape6 mdl-fw" src="./img/shapes/Rectangle 6.png"/>
+                        <img className="shape6 mdl-fw" src="./img/shapes/rectangle-6.png"/>
                         <p className="newwebcaption" style={{fontFamily: 'Lato-Regular'}}>Let's create something  that will convert  visitors to instant customers.<br/>With clean and clear UI/UX and branded aesthestics, create valuable<br/> qualified leads.</p>
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored getsbutton">
                             GET ESTIMATE
@@ -35,19 +35,19 @@ class Main extends Component {
                      </div>
 
                     <div className="mdl-cell mdl-cell--6-col mdl-cell--4-col-phone">
-                        <img className="laptop mdl-fw" src="../public/img/laptop/laptop.png"/>
+                        <img className="laptop mdl-fw" src="./img/laptop/laptop.png"/>
                     </div>
 
                 </div>
 
                 <div className="mdl-grid aboutpage" id="about">
                     <div className="mdl-cell mdl-cell--6-col">
-                        <img className="shape5" src="./img/shapes/RectangleWhite.png"/>
+                        <img className="shape5" src="./img/shapes/rectanglewhite.png"/>
                         <p className="caption">Expand your brand's reach today, take <br/> it to the clouds! We'll be happy to do<br/>the heavy lifting(Coding) for you! </p>
                     </div>
 
                     <div className="mdl-cell mdl-cell--6-col ">
-                        <img className="logo mdl-fw" src="../public/img/logo/cloudwalk-logo.png"/>
+                        <img className="logo mdl-fw" src="./img/logo/cloudwalk-logo.png"/>
                         <p className="caption1"> We are a digital (obviously) solutions company that create products to<br/> improve and innovata companies across the globe. We create unparalleled <br/> systematic business solutions to make operations more officients.</p>
                         
                     </div>
@@ -79,7 +79,7 @@ class Main extends Component {
 
                     <div className="mdl-cell mdl-cell--6-col products" >
                         <label className="products1" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Products</label>
-                        <img className="shape666 mdl-fw" src="./img/shapes/Rectangle 6.png"/>
+                        <img className="shape666 mdl-fw" src="./img/shapes/rectangle-6.png"/>
                         <p className="photoliveinfo">Photolive is a social media tool and the first digital photo<br/> booth in the country that allow's brands to gain valuable<br/>presence in top social networking sites like Facebook, Instagram, Twitter and Email in real time. </p>
 
                         <button className="mdl-button mdl-js-button mdl-button--raised mdl-button--colored productbtn">
@@ -91,7 +91,7 @@ class Main extends Component {
                 <div className="mdl-grid feedbackgrid">
                     <div className="mdl-cell mdl-cell--6-col feedback">
                         <label className="cfeedback" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Customer Feedback</label>
-                        <img className="shape06 mdl-fw"  src="./img/shapes/Rectangle 6.png"/>
+                        <img className="shape06 mdl-fw"  src="./img/shapes/rectangle-6.png"/>
                         <p className="comments">We’ve worked with some of the world’s best customers.<br/>
                         Helping these guys succeed with a little help from us was<br/>
                         a pretty fulfilling experience for us. We hope to add you here!
@@ -118,7 +118,7 @@ class Main extends Component {
                 <div className="mdl-grid consult ">
                     <div className="mdl-cell mdl-cell--6-col consultation">
                         <label className="constitle" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>Get a Free Consultation</label>
-                        <img className="shape6666 mdl-fw"  src="./img/shapes/Rectangle 6.png"/>
+                        <img className="shape6666 mdl-fw"  src="./img/shapes/rectangle-6.png"/>
                         <p className="conscomments">Get in touch with us today! Fill out this form and<br/>
                             let’s get things done.</p>
                      </div>
@@ -190,7 +190,7 @@ class Main extends Component {
 
                 <div className="mdl-grid--no-spacing blue-parent-div">
                     <div className="mdl-cell mdl-cell--12-col bluediv">
-                        <img className="bluebg" src="./img/shapes/Accent 2.png"/>
+                        <img className="bluebg" src="./img/shapes/accent-2.png"/>
                     </div>
                 </div>
 
@@ -198,7 +198,7 @@ class Main extends Component {
                     <div className="map" id="map"></div>
                     <div className="mdl-cell mdl-cell--12-col cwdmap">
                         <label className="drop" style={{fontFamily: 'MerriweatherSans-ExtraBold'}}>DROP BY OUR OFFICE!</label>
-                        <img className="mapshape"  src="./img/shapes/Rectangle 6.png"/>
+                        <img className="mapshape"  src="./img/shapes/rectangle-6.png"/>
                         <p className="cwdadd"> #79 3BB Building Kamuning Street Corner,<br/>
                         11th Jamboree, Quezon City, 1100 Metro Manila</p>
                     </div>
@@ -218,7 +218,7 @@ class Main extends Component {
                      <div  className="mdl-cell mdl-cell--6-col socialmedia" >
                         <div  className="mdl-grid" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                            <img className="fbicon"  src="./img/SM/FB.png"/>
+                            <img className="fbicon"  src="./img/sm/fb.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col  mdl-cell--3-col-phone tandc">
                                 <label style={{fontFamily: 'Lato-Regular'}}>TERMS AND CONDITIONS</label>
@@ -227,7 +227,7 @@ class Main extends Component {
 
                         <div  className="mdl-grid twitter" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                                <img className="twittericon"  src="./img/SM/Twitter.png"/>
+                                <img className="twittericon"  src="./img/sm/twitter.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone blog" >
                                 <label style={{fontFamily: 'Lato-Regular'}}>BLOG</label>
@@ -236,7 +236,7 @@ class Main extends Component {
 
                         <div  className="mdl-grid youtube" >
                             <div  className="mdl-cell mdl-cell--6-col mdl-cell--1-col-phone" >
-                                <img className="youtubeicon"  src="./img/SM/Youtube.png"/>
+                                <img className="youtubeicon"  src="./img/sm/youtube.png"/>
                             </div>
                             <div className="mdl-cell mdl-cell--6-col mdl-cell--3-col-phone footercontact">
                                 <label style={{fontFamily: 'Lato-Regular'}}>CONTACT</label>
