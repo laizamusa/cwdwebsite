@@ -13,6 +13,12 @@ body {
     /*display: none;*/
 }
 
+.contactmenu{
+    background: white !important;
+    color: orange !important;
+    border: 1px solid orange !important;
+}
+
 .rotate {
     -webkit-animation-duration: 10s, 10s;
     -webkit-animation-iteration-count: infinite, infinite;
@@ -190,6 +196,7 @@ body {
         position: absolute;
         z-index: 0;
         margin-left: 55%;
+        margin-top: 10px;
     }
 
     .rectangle3{
@@ -316,19 +323,22 @@ body {
 
     .nxtpro{
         font-size: 14px;
-        color: #363636;
+        color: #7a7a7a;
         text-align: center;
-        margin-right: 304px;
+        margin-right: 246px;
+        letter-spacing: 3px;
     }
 
     .newwebcaption{
         margin-left: 114px;
         margin-top: -13px;
+        color: #7a7a7a;
     }
 
     .getsbutton{
         margin-left: 114px;
         margin-top: 10px;
+        background: #63d6ef !important;
     }
 
     .laptop{
@@ -360,6 +370,7 @@ body {
     .caption1{
         margin-left: 52px;
         margin-top: 35px;
+        color: #7a7a7a;
     }
 
     /*.polygon3{*/
@@ -398,6 +409,7 @@ body {
     .omsfeatures1{
         margin-top: 20px;
         margin-left: 100px;
+        color: #7a7a7a;
     }
 
     .wd{
@@ -408,6 +420,7 @@ body {
     .wdfeatures2{
         margin-top: 20px;
         margin-left: 130px;
+        color: #7a7a7a;
     }
 
     .dg{
@@ -417,6 +430,7 @@ body {
     .dgfeatures3{
         margin-top: 20px;
         margin-left: 120px;
+        color: #7a7a7a;
     }
 
     /*END FEATURES DESIGN*/
@@ -430,6 +444,7 @@ body {
     .photoliveinfo{
         margin-top: 20px;
         margin-left: 23px;
+        color: #7a7a7a;
     }
 
     .products{
@@ -444,6 +459,7 @@ body {
 
     .productbtn{
         margin-left: 20px;
+        background: #63d6ef !important;
     }
 
     .shape666{
@@ -475,6 +491,7 @@ body {
 
     .titleqoute{
         font-size: 30px;
+        color: #7a7a7a;
     }
 
     .feedback1{
@@ -497,10 +514,16 @@ body {
 
     .comments{
         margin-left: 107px;
+        color: #7a7a7a;
     }
 
     .jonathan{
         height: 120px;
+    }
+
+    .name1{
+        color: #7a7a7a;
+        margin-left: 0px;
     }
 
     .photo{
@@ -509,7 +532,7 @@ body {
 
     .name{
         margin-top: 46px;
-        margin-left: -122px;
+        margin-left: -168px;
     }
 
     .qoute{
@@ -520,6 +543,7 @@ body {
 
     .clientqoute{
         margin-left: 64px;
+        color: #7a7a7a;
     }
 
     .company{
@@ -556,6 +580,7 @@ body {
 
     .conscomments{
         margin-left: 90px;
+        color: #7a7a7a;
     }
 
     .table{
@@ -564,6 +589,11 @@ body {
     }
 
     /*form*/
+
+    .fillupform{
+        color: #7a7a7a;
+    }
+
     .input{
         background-color: #f8f8f8;
         /*margin-top: -29px;*/
@@ -604,6 +634,7 @@ body {
 
     .submitbtn{
         width: 100%;
+        background: #63d6ef !important;
     }
     /* end free consultation*/
 
@@ -642,6 +673,7 @@ body {
     .cwdadd{
         /*margin-left: -301px;*/
         margin-top: 22px;
+        color: #7a7a7a;
     }
 
     .mapshape{
@@ -681,6 +713,10 @@ body {
     .footerlabel1{
         /*margin-top: -219px;*/
 
+    }
+
+    .syp{
+        background: #63d6ef !important;
     }
 
     .fbicon{
@@ -836,6 +872,8 @@ body {
 
     .getsbutton{
         margin-left: 170px;
+        background: #63d6ef;
+    }
     }
 
     .logo{
@@ -858,8 +896,8 @@ body {
     }
 
     .shape6{
-        margin-left: 216px;
-        margin-top: 10px;
+        margin-left: 112px;
+        margin-top: -41px;
     }
 
     .comments{
@@ -880,6 +918,6 @@ body {
         width: 100%;
     }
 
-}
+
 
 
