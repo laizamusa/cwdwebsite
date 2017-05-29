@@ -51,6 +51,10 @@ body {
     }
 }
 
+.bluebg{
+    width: 100%;
+}
+
 .mdl-layout__drawer-button {
     color: silver !important;
 }
@@ -123,12 +127,65 @@ body {
         /*height: 100%;*/
         width: 60%;
     }
+
+    .logo {
+        margin-top: 0px;
+    }
+
+    .page-content{
+        /*background: url('../public/img/bg/cwd-web.png') no-repeat;*/
+        /*-webkit-background-size: cover;*/
+        /*-moz-background-size: cover;*/
+        /*-o-background-size: cover;*/
+        /*background-size: cover;*/
+    }
+
+    .nxtpro {
+        font-size: 14px;
+        color: #7a7a7a;
+        text-align: center;
+        margin-right: auto;
+        letter-spacing: 3px;
+    }
+
+    .newweb {
+        margin-top: auto;
+        color: #f5822c;
+        font-size: 43px;
+        text-align: center;
+    }
+
+    .shape6 {
+        margin-left: auto;
+        margin-top: -41px;
+    }
+
+    .newwebcaption {
+        margin-left: auto;
+        margin-top: auto;
+        color: #7a7a7a;
+        text-align: center;
+    }
+
+    .web {
+        text-align: center;
+    }
+
+    .getsbutton {
+        margin-left: auto;
+        margin-top: auto;
+        background: #63d6ef !important;
+    }
 }
 @media screen and (min-width:481px) {}
 @media screen and (min-width:567px) {}
 @media screen and (min-width:940px) {}
 @media screen and (min-width:1024px) {}
 @media screen and (min-width:1220px) {
+
+    .logo{
+        margin-top: 280px;
+    }
 
     .bluediv {
         width: 100%;
@@ -154,8 +211,13 @@ body {
     .header{
         color: #ffffff;
     }
+
     .page-content{
-        background: url('../public/img/bg/cwd-web.png');
+        background: url('../public/img/bg/cwd-web.png') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     .mdl-layout__header{
@@ -785,8 +847,22 @@ body {
 }
 @media screen and (min-width:1583px) {
 
+
+    .shape6{
+        margin-left: 112px;
+        margin-top: -41px;
+    }
+
+    .logo{
+        margin-top: 280px;
+    }
+
     .page-content{
-        background: url('../public/img/bg/cwd-web1.png');
+        background: url('../public/img/bg/cwd-web1.png') no-repeat;
+        -webkit-background-size: cover;
+        -moz-background-size: cover;
+        -o-background-size: cover;
+        background-size: cover;
     }
 
     /*Start Shape*/
@@ -878,16 +954,10 @@ body {
         margin-left: 170px;
         background: #63d6ef;
     }
-    }
-
-    .logo{
-        margin-top: 280px;
-    }
 
     .caption1{
         margin-top: 15px;
     }
-
 
 
     .shape6666{
@@ -897,11 +967,6 @@ body {
 
     .cfeedback{
         margin-left: 212px;
-    }
-
-    .shape6{
-        margin-left: 112px;
-        margin-top: -41px;
     }
 
     .comments{
@@ -917,10 +982,8 @@ body {
         margin-left: 188px;
         margin-top: 10px;
     }
+}
 
-    .bluebg{
-        width: 100%;
-    }
 
 
 

@@ -26,12 +26,21 @@
       }
       @font-face {
         font-family: MerriweatherSans-Bold;
-        src: url(./Fonts/Merriweather-Sans/MerriweatherSans-Bold.ttf);
+        src: url(./Fonts/Merriweather-Sans/MerriweatherSans-Bold.ttf),
+             url(./Fonts/Merriweather-Sans/merriweathersans-extrabold-webfont.woff2) format('woff2'),
+             url(./Fonts/Merriweather-Sans/merriweathersans-extrabold-webfont.woff) format('woff');
+        font-weight: normal;
+        font-style: normal;
+      ;
       }
 
       @font-face {
         font-family: Lato-Medium;
-        src: url(./Fonts/Lato/Lato-Medium.ttf);
+        src: url(./Fonts/Lato/Lato-Medium.ttf),
+             url(./Fonts/Lato/lato-medium-webfont.woff2) format('woff2'),
+             url(./Fonts/Lato/lato-medium-webfont.woff) format('woff');
+        font-weight: normal;
+        font-style: normal;;
 
       }
       @font-face {
@@ -68,12 +77,6 @@
         zoom: 20,
         center: uluru
       });
-//      var bounds = map.getBounds();
-//      var ne = bounds.getNorthEast(); // LatLng of the north-east corner
-//      var sw = bounds.getSouthWest(); // LatLng of the south-west corder
-//
-//      var nw = new google.maps.LatLng(ne.lat(), sw.lng());
-//      var se = new google.maps.LatLng(sw.lat(), ne.lng());
 
       var marker = new google.maps.Marker({
         position: uluru,
